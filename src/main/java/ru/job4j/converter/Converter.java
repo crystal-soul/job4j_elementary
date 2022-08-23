@@ -65,7 +65,7 @@ public class Converter {
 
         in = 888;
         expected = 53280.0f;
-        out = Converter.euroToRub(in);
+        out = Converter.dollarToRub(in);
         passed = expected == out;
         System.out.println("888 dollar are 53280.0 Test result : " + passed);
     }
