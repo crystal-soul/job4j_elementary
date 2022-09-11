@@ -15,7 +15,7 @@ public class ThreeMaxTest {
     }
 
     @Test
-    public void secondMaxч() {
+    public void secondMax() {
         int first = 10;
         int second = 50;
         int third = 1;
@@ -73,4 +73,4 @@ public class ThreeMaxTest {
         int expected = 100;
         assertThat(result).isEqualTo(expected);
     }
-}
+}}
