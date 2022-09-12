@@ -11,7 +11,7 @@ public class ThreeMaxTest {
         int third = 1;
         int result = ThreeMax.max(first, second, third);
         int expected = 10;
-        assertThat(result).isEqualTo(expected);
+        assertThat(result).isEqualTo(expected );
     }
 
     @Test
